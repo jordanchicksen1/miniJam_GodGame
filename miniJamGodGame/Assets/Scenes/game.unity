@@ -444,15 +444,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2230305841565905270, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_text
-      value: Ukraine
+      value: Almost cancer free world
       objectReference: {fileID: 0}
     - target: {fileID: 2230305841565905270, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_fontSize
-      value: 20.08
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2230305841565905270, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_fontSizeBase
-      value: 20.08
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2535866393387962003, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -548,7 +548,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3960286474406585762, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_text
-      value: Palestine
+      value: Millions of people lose their jobs
+      objectReference: {fileID: 0}
+    - target: {fileID: 3960286474406585762, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3960286474406585762, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4058206168123282724, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_SizeDelta.x
@@ -572,7 +580,7 @@ PrefabInstance:
       objectReference: {fileID: 860667522}
     - target: {fileID: 9077310779481152271, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_text
-      value: 'A meteor is flying to Earth. Choose where it lands '
+      value: Dear God, please stop all smoking in the world.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -606,7 +614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1046408640216646863, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2230305841565905270, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_text
@@ -776,7 +784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2230305841565905270, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_text
-      value: blow them up
+      value: the son
       objectReference: {fileID: 0}
     - target: {fileID: 2230305841565905270, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_fontSize
@@ -880,7 +888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3960286474406585762, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_text
-      value: let them carry on
+      value: the dad
       objectReference: {fileID: 0}
     - target: {fileID: 4058206168123282724, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_SizeDelta.x
@@ -904,7 +912,7 @@ PrefabInstance:
       objectReference: {fileID: 860667522}
     - target: {fileID: 9077310779481152271, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: m_text
-      value: Dear God, please blow up Israel. They are too evil.
+      value: A dad and his son are in a car crash. Choose who lives
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1859,7 +1867,7 @@ PrefabInstance:
     - target: {fileID: 6467465649958204121, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: nextQuestion
       value: 
-      objectReference: {fileID: 1782715351}
+      objectReference: {fileID: 1630370604}
     - target: {fileID: 6467465649958204121, guid: f8a64ddc2f3f05147a27dcf786b113dc, type: 3}
       propertyPath: currentQuestion
       value: 
