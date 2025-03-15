@@ -56,6 +56,8 @@ public class PrayerAnswer : MonoBehaviour
         Q2.SetActive(true);
     }
 
+
+
     public void Q2Green()
     {
         playerData.followers -= 20;
@@ -63,39 +65,124 @@ public class PrayerAnswer : MonoBehaviour
         Q3.SetActive(true);
     }
 
-    public void Q3Red()
+    public void Q2Red()
     {
         playerData.followers += 30;
         Q2.SetActive(false);
         Q3.SetActive(true);
     }
 
-    public void Q4Green()
+    public void Q3Green()
     {
         playerData.followers += 50;
         Q3.SetActive(false);
         Q4.SetActive(true);
+    }
+
+    public void Q3Red()
+    {
+        playerData.followers -= 50;
+        Q3.SetActive(false);
+        Q4.SetActive(true);
+
+    }
+
+    public void Q4Green()
+    {
+        playerData.followers += 50;
+        Q4.SetActive(false);
+        Q5.SetActive(true);
     }
 
     public void Q4Red()
     {
         playerData.followers -= 50;
-        Q3.SetActive(false);
-        Q4.SetActive(true);
-
+        Q4.SetActive(false);
+        Q5.SetActive(true);
     }
 
     public void Q5Green()
     {
         playerData.followers += 50;
-        Q4.SetActive(false);
-        Q5.SetActive(true);
+        Q5.SetActive(false);
+        Q6.SetActive(true);
     }
 
     public void Q5Red()
     {
         playerData.followers -= 50;
-        Q4.SetActive(false);
-        Q5.SetActive(true);
+        Q5.SetActive(false);
+        Q6.SetActive(true);
+    }
+
+    public void Q6Green()
+    {
+        playerData.followers += 50;
+        Q6.SetActive(false);
+        Q7.SetActive(true);
+    }
+
+    public void Q6Red()
+    {
+        playerData.followers -= 50;
+        Q6.SetActive(false);
+        Q7.SetActive(true);
+    }
+
+    public void Q7Green()
+    {
+        playerData.followers += 50;
+        Q7.SetActive(false);
+        Q8.SetActive(true);
+    }
+
+    public void Q7Red()
+    {
+        playerData.followers -= 50;
+        Q7.SetActive(false);
+        Q8.SetActive(true);
+    }
+
+    public void Q8Green()
+    {
+        playerData.followers += 50;
+        Q8.SetActive(false);
+        Q9.SetActive(true);
+    }
+
+    public void Q8Red()
+    {
+        playerData.followers -= 50;
+        Q8.SetActive(false);
+        Q9.SetActive(true);
+    }
+
+    public void Q9Green()
+    {
+        playerData.followers += 50;
+        Q9.SetActive(false);
+        Q10.SetActive(true);
+    }
+
+    public void Q9Red()
+    {
+        playerData.followers -= 50;
+        Q9.SetActive(false);
+        Q10.SetActive(true);
+    }
+
+
+    public void Q10Green()
+    {
+        playerData.followers += 50;
+        Q10.SetActive(false);
+      
+    }
+
+    public void Q10Red()
+    {
+        playerData.followers -= 50;
+        Q10.SetActive(false);
+     
     }
 }
