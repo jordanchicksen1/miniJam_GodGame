@@ -11,6 +11,7 @@ public class startScript : MonoBehaviour
     public GameObject text2;
     public GameObject text3;
     public GameObject text4;
+    public GameObject text5;
     public GameObject startButton;
     public GameObject quitButton;
 
@@ -36,12 +37,15 @@ public class startScript : MonoBehaviour
         yield return new WaitForSeconds(5f);
         text2.SetActive(true);
         text1.SetActive(false);
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(6f);
         text3.SetActive(true);
         text2.SetActive(false);
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(6f);
         text4.SetActive(true);
         text3.SetActive(false);
+        yield return new WaitForSeconds(6f);
+        text4.SetActive(false);
+        text5.SetActive(true);
         yield return new WaitForSeconds(6f);
         SceneManager.LoadScene("game");
     }
