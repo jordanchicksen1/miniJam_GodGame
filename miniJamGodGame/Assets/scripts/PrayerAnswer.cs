@@ -55,7 +55,47 @@ public class PrayerAnswer : MonoBehaviour
         Q1.SetActive(false);
         Q2.SetActive(true);
     }
-   
 
-    
+    public void Q2Green()
+    {
+        playerData.followers -= 20;
+        Q2.SetActive(false);
+        Q3.SetActive(true);
+    }
+
+    public void Q3Red()
+    {
+        playerData.followers += 30;
+        Q2.SetActive(false);
+        Q3.SetActive(true);
+    }
+
+    public void Q4Green()
+    {
+        playerData.followers += 50;
+        Q3.SetActive(false);
+        Q4.SetActive(true);
+    }
+
+    public void Q4Red()
+    {
+        playerData.followers -= 50;
+        Q3.SetActive(false);
+        Q4.SetActive(true);
+
+    }
+
+    public void Q5Green()
+    {
+        playerData.followers += 50;
+        Q4.SetActive(false);
+        Q5.SetActive(true);
+    }
+
+    public void Q5Red()
+    {
+        playerData.followers -= 50;
+        Q4.SetActive(false);
+        Q5.SetActive(true);
+    }
 }
